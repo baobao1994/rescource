@@ -37,3 +37,16 @@ http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/
 
 swift语言指南：
 https://github.com/ipader/SwiftGuide
+
+github客户端使用
+http://www.jianshu.com/p/e7501b968256
+
+如何在 OS X Mountain Lion 和早期版本的 Finder 显示隐藏文件和文件夹
+　　第一步：打开「终端」应用程序。
+　　第二步：输入如下命令：
+　　defaults write com.apple.finder AppleShowAllFiles TRUE ; killall Finder
+　　第三步：按下「Return」键。
+　　这样一来你就会在 Finder 窗口中看到隐藏的文件和文件夹了。
+　　同样地，如果你想再次隐藏那些原本的隐藏文件和文件夹的话，将上述步骤中的命令替换成
+　　defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder即可。
+

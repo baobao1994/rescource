@@ -1,0 +1,62 @@
+http://mp.weixin.qq.com/s?__biz=MzA3NzM0NzkxMQ==&mid=2655358176&idx=1&sn=1531432655ffb51b43d9553142c04287&chksm=84e241c8b395c8de1f4aea66dccce58205269712a32649504bc8d7a0e933dcc7c2195558e629&mpshare=1&scene=1&srcid=1008U10bwS1AT2I7bmpF0ZaP#rd
+
+http://www.jianshu.com/p/4523eafb4cd4
+
+UITableView的Group样式下顶部空白处理
+UITableView的plain样式下，取消区头停滞效果
+获取某个view所在的控制器
+两种方法删除NSUserDefaults所有记录
+打印系统所有已注册的字体名称
+获取图片某一点的颜色
+字符串反转
+禁止锁屏
+Xcode调试不显示内存占用
+显示隐藏文件
+字符串按多个符号分割
+iOS跳转到App Store下载应用评分
+iOS 获取汉字的拼音
+手动更改iOS状态栏的颜色
+判断当前ViewController是push还是present的方式显示的
+获取实际使用的LaunchImage图片
+iOS在当前屏幕获取第一响应
+判断对象是否遵循了某协议
+判断view是不是指定视图的子视图
+NSArray 快速求总和 最大值 最小值 和 平均值
+修改UITextField中Placeholder的文字颜色
+关于NSDateFormatter的格式
+获取一个类的所有子类
+监测IOS设备是否设置了代理，需要CFNetwork.framework
+阿拉伯数字转中文格式
+Base64编码与NSString对象或NSData对象的转换
+取消UICollectionView的隐式动画
+让Xcode的控制台支持LLDB类型的打印
+UIImage 占用内存大小
+GCD timer定时器
+图片上绘制文字 写一个UIImage的category
+查找一个视图的所有子视图
+计算文件大小
+UIView设置部分圆角
+取上整与取下整
+计算字符串字符长度，一个汉字算两个字符
+给UIView设置图片
+防止scrollView手势覆盖侧滑手势
+去掉导航栏返回的back标题
+字符串中是否含有中文
+dispatch_group的使用
+UITextField每四位加一个空格,实现代理
+获取私有属性和成员变量 #import
+获取手机安装的应用
+判断两个日期是否在同一周 写在NSDate的category里面
+应用内打开系统设置界面
+动画暂停再开始
+fillRule原理
+iOS中数字的格式化
+如何获取WebView所有的图片地址
+获取到webview的高度
+navigationBar变为纯透明
+iOS 开发中一些相关的路径
+navigationItem的BarButtonItem如何紧靠屏幕右边界或者左边界？
+
+
+
+
