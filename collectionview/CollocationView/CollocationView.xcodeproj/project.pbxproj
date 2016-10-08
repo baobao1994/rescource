@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BABA41441D61B69600D5F757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA41431D61B69600D5F757 /* main.m */; };
+		BABA41471D61B69600D5F757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA41461D61B69600D5F757 /* AppDelegate.m */; };
+		BABA414A1D61B69600D5F757 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA41491D61B69600D5F757 /* ViewController.m */; };
+		BABA414D1D61B69600D5F757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABA414B1D61B69600D5F757 /* Main.storyboard */; };
+		BABA414F1D61B69600D5F757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABA414E1D61B69600D5F757 /* Assets.xcassets */; };
+		BABA41521D61B69600D5F757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABA41501D61B69600D5F757 /* LaunchScreen.storyboard */; };
+		BABA415D1D61B69600D5F757 /* CollocationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA415C1D61B69600D5F757 /* CollocationViewTests.m */; };
+		BABA41681D61B69600D5F757 /* CollocationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA41671D61B69600D5F757 /* CollocationViewUITests.m */; };
+		BABA41781D61B94A00D5F757 /* ButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA41761D61B94A00D5F757 /* ButtonCollectionViewCell.m */; };
+		BABA41791D61B94A00D5F757 /* ButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABA41771D61B94A00D5F757 /* ButtonCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BABA41591D61B69600D5F757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BABA41371D61B69600D5F757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABA413E1D61B69600D5F757;
+			remoteInfo = CollocationView;
+		};
+		BABA41641D61B69600D5F757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BABA41371D61B69600D5F757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABA413E1D61B69600D5F757;
+			remoteInfo = CollocationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BABA413F1D61B69600D5F757 /* CollocationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollocationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABA41431D61B69600D5F757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BABA41451D61B69600D5F757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BABA41461D61B69600D5F757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BABA41481D61B69600D5F757 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BABA41491D61B69600D5F757 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BABA414C1D61B69600D5F757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BABA414E1D61B69600D5F757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BABA41511D61B69600D5F757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BABA41531D61B69600D5F757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABA41581D61B69600D5F757 /* CollocationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollocationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABA415C1D61B69600D5F757 /* CollocationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollocationViewTests.m; sourceTree = "<group>"; };
+		BABA415E1D61B69600D5F757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABA41631D61B69600D5F757 /* CollocationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollocationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABA41671D61B69600D5F757 /* CollocationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollocationViewUITests.m; sourceTree = "<group>"; };
+		BABA41691D61B69600D5F757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABA41751D61B94A00D5F757 /* ButtonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCollectionViewCell.h; sourceTree = "<group>"; };
+		BABA41761D61B94A00D5F757 /* ButtonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCollectionViewCell.m; sourceTree = "<group>"; };
+		BABA41771D61B94A00D5F757 /* ButtonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BABA413C1D61B69600D5F757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA41551D61B69600D5F757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA41601D61B69600D5F757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BABA41361D61B69600D5F757 = {
+			isa = PBXGroup;
+			children = (
+				BABA41411D61B69600D5F757 /* CollocationView */,
+				BABA415B1D61B69600D5F757 /* CollocationViewTests */,
+				BABA41661D61B69600D5F757 /* CollocationViewUITests */,
+				BABA41401D61B69600D5F757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BABA41401D61B69600D5F757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BABA413F1D61B69600D5F757 /* CollocationView.app */,
+				BABA41581D61B69600D5F757 /* CollocationViewTests.xctest */,
+				BABA41631D61B69600D5F757 /* CollocationViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BABA41411D61B69600D5F757 /* CollocationView */ = {
+			isa = PBXGroup;
+			children = (
+				BABA41451D61B69600D5F757 /* AppDelegate.h */,
+				BABA41461D61B69600D5F757 /* AppDelegate.m */,
+				BABA41481D61B69600D5F757 /* ViewController.h */,
+				BABA41491D61B69600D5F757 /* ViewController.m */,
+				BABA414B1D61B69600D5F757 /* Main.storyboard */,
+				BABA414E1D61B69600D5F757 /* Assets.xcassets */,
+				BABA41501D61B69600D5F757 /* LaunchScreen.storyboard */,
+				BABA41531D61B69600D5F757 /* Info.plist */,
+				BABA41421D61B69600D5F757 /* Supporting Files */,
+				BABA41751D61B94A00D5F757 /* ButtonCollectionViewCell.h */,
+				BABA41761D61B94A00D5F757 /* ButtonCollectionViewCell.m */,
+				BABA41771D61B94A00D5F757 /* ButtonCollectionViewCell.xib */,
+			);
+			path = CollocationView;
+			sourceTree = "<group>";
+		};
+		BABA41421D61B69600D5F757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BABA41431D61B69600D5F757 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BABA415B1D61B69600D5F757 /* CollocationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BABA415C1D61B69600D5F757 /* CollocationViewTests.m */,
+				BABA415E1D61B69600D5F757 /* Info.plist */,
+			);
+			path = CollocationViewTests;
+			sourceTree = "<group>";
+		};
+		BABA41661D61B69600D5F757 /* CollocationViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BABA41671D61B69600D5F757 /* CollocationViewUITests.m */,
+				BABA41691D61B69600D5F757 /* Info.plist */,
+			);
+			path = CollocationViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BABA413E1D61B69600D5F757 /* CollocationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABA416C1D61B69600D5F757 /* Build configuration list for PBXNativeTarget "CollocationView" */;
+			buildPhases = (
+				BABA413B1D61B69600D5F757 /* Sources */,
+				BABA413C1D61B69600D5F757 /* Frameworks */,
+				BABA413D1D61B69600D5F757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollocationView;
+			productName = CollocationView;
+			productReference = BABA413F1D61B69600D5F757 /* CollocationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BABA41571D61B69600D5F757 /* CollocationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABA416F1D61B69600D5F757 /* Build configuration list for PBXNativeTarget "CollocationViewTests" */;
+			buildPhases = (
+				BABA41541D61B69600D5F757 /* Sources */,
+				BABA41551D61B69600D5F757 /* Frameworks */,
+				BABA41561D61B69600D5F757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BABA415A1D61B69600D5F757 /* PBXTargetDependency */,
+			);
+			name = CollocationViewTests;
+			productName = CollocationViewTests;
+			productReference = BABA41581D61B69600D5F757 /* CollocationViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BABA41621D61B69600D5F757 /* CollocationViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABA41721D61B69600D5F757 /* Build configuration list for PBXNativeTarget "CollocationViewUITests" */;
+			buildPhases = (
+				BABA415F1D61B69600D5F757 /* Sources */,
+				BABA41601D61B69600D5F757 /* Frameworks */,
+				BABA41611D61B69600D5F757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BABA41651D61B69600D5F757 /* PBXTargetDependency */,
+			);
+			name = CollocationViewUITests;
+			productName = CollocationViewUITests;
+			productReference = BABA41631D61B69600D5F757 /* CollocationViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BABA41371D61B69600D5F757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "郭伟文";
+				TargetAttributes = {
+					BABA413E1D61B69600D5F757 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BABA41571D61B69600D5F757 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BABA413E1D61B69600D5F757;
+					};
+					BABA41621D61B69600D5F757 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BABA413E1D61B69600D5F757;
+					};
+				};
+			};
+			buildConfigurationList = BABA413A1D61B69600D5F757 /* Build configuration list for PBXProject "CollocationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BABA41361D61B69600D5F757;
+			productRefGroup = BABA41401D61B69600D5F757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BABA413E1D61B69600D5F757 /* CollocationView */,
+				BABA41571D61B69600D5F757 /* CollocationViewTests */,
+				BABA41621D61B69600D5F757 /* CollocationViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BABA413D1D61B69600D5F757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABA41791D61B94A00D5F757 /* ButtonCollectionViewCell.xib in Resources */,
+				BABA41521D61B69600D5F757 /* LaunchScreen.storyboard in Resources */,
+				BABA414F1D61B69600D5F757 /* Assets.xcassets in Resources */,
+				BABA414D1D61B69600D5F757 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA41561D61B69600D5F757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA41611D61B69600D5F757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BABA413B1D61B69600D5F757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABA41781D61B94A00D5F757 /* ButtonCollectionViewCell.m in Sources */,
+				BABA414A1D61B69600D5F757 /* ViewController.m in Sources */,
+				BABA41471D61B69600D5F757 /* AppDelegate.m in Sources */,
+				BABA41441D61B69600D5F757 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA41541D61B69600D5F757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABA415D1D61B69600D5F757 /* CollocationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA415F1D61B69600D5F757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABA41681D61B69600D5F757 /* CollocationViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BABA415A1D61B69600D5F757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BABA413E1D61B69600D5F757 /* CollocationView */;
+			targetProxy = BABA41591D61B69600D5F757 /* PBXContainerItemProxy */;
+		};
+		BABA41651D61B69600D5F757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BABA413E1D61B69600D5F757 /* CollocationView */;
+			targetProxy = BABA41641D61B69600D5F757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BABA414B1D61B69600D5F757 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABA414C1D61B69600D5F757 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BABA41501D61B69600D5F757 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABA41511D61B69600D5F757 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BABA416A1D61B69600D5F757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BABA416B1D61B69600D5F757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BABA416D1D61B69600D5F757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollocationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sihe.com.CollocationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BABA416E1D61B69600D5F757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollocationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sihe.com.CollocationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BABA41701D61B69600D5F757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollocationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sihe.com.CollocationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollocationView.app/CollocationView";
+			};
+			name = Debug;
+		};
+		BABA41711D61B69600D5F757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollocationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sihe.com.CollocationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollocationView.app/CollocationView";
+			};
+			name = Release;
+		};
+		BABA41731D61B69600D5F757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollocationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sihe.com.CollocationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollocationView;
+			};
+			name = Debug;
+		};
+		BABA41741D61B69600D5F757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollocationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sihe.com.CollocationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollocationView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BABA413A1D61B69600D5F757 /* Build configuration list for PBXProject "CollocationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABA416A1D61B69600D5F757 /* Debug */,
+				BABA416B1D61B69600D5F757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABA416C1D61B69600D5F757 /* Build configuration list for PBXNativeTarget "CollocationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABA416D1D61B69600D5F757 /* Debug */,
+				BABA416E1D61B69600D5F757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BABA416F1D61B69600D5F757 /* Build configuration list for PBXNativeTarget "CollocationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABA41701D61B69600D5F757 /* Debug */,
+				BABA41711D61B69600D5F757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BABA41721D61B69600D5F757 /* Build configuration list for PBXNativeTarget "CollocationViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABA41731D61B69600D5F757 /* Debug */,
+				BABA41741D61B69600D5F757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BABA41371D61B69600D5F757 /* Project object */;
+}

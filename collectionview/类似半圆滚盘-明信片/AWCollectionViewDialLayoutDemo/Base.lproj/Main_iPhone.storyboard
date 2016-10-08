@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mSV-xq-UcH">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="K89-l9-7hR">
+            <objects>
+                <viewController id="mSV-xq-UcH" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="is3-sG-0ux"/>
+                        <viewControllerLayoutGuide type="bottom" id="xne-A2-CoR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3CA-sa-0G2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Jga-nl-Exd">
+                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <color key="backgroundColor" red="0.027450980390000001" green="0.027450980390000001" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="3ar-5l-fpu">
+                                    <size key="itemSize" width="240" height="100"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Cn1-2Q-8Nm">
+                                        <rect key="frame" x="40" y="0.0" width="240" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="mSV-xq-UcH" id="AtH-Ab-6Em"/>
+                                    <outlet property="delegate" destination="mSV-xq-UcH" id="Ctx-ug-Y68"/>
+                                </connections>
+                            </collectionView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="alI-FD-aPB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="AW DialLayout" id="PRM-Vg-IWj">
+                                        <barButtonItem key="rightBarButtonItem" title="Edit" id="cPx-Xq-Hs5">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="alI-FD-aPB" firstAttribute="leading" secondItem="3CA-sa-0G2" secondAttribute="leading" id="230-z9-jDd"/>
+                            <constraint firstItem="alI-FD-aPB" firstAttribute="top" secondItem="is3-sG-0ux" secondAttribute="bottom" id="7wB-6U-Aab"/>
+                            <constraint firstAttribute="trailing" secondItem="alI-FD-aPB" secondAttribute="trailing" id="GZI-zC-vTL"/>
+                            <constraint firstItem="Jga-nl-Exd" firstAttribute="leading" secondItem="3CA-sa-0G2" secondAttribute="leading" id="bUR-OG-Xer"/>
+                            <constraint firstItem="xne-A2-CoR" firstAttribute="top" secondItem="Jga-nl-Exd" secondAttribute="bottom" id="gX7-dk-mHp"/>
+                            <constraint firstItem="Jga-nl-Exd" firstAttribute="top" secondItem="is3-sG-0ux" secondAttribute="bottom" constant="44" id="jbs-LH-O4h"/>
+                            <constraint firstAttribute="trailing" secondItem="Jga-nl-Exd" secondAttribute="trailing" id="sMk-cp-KoK"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Jga-nl-Exd" id="bO4-5o-8pv"/>
+                        <outlet property="editBtn" destination="cPx-Xq-Hs5" id="03z-zK-XjU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ARo-cD-diM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1017" y="190"/>
+        </scene>
+    </scenes>
+</document>
